@@ -1,6 +1,4 @@
-// Common data and functions for QuickFeast
 
-// Hardcoded users
 const users = {
   admin: { password: "admin123", role: "admin" },
   john: { password: "john123", role: "customer" },
@@ -8,7 +6,6 @@ const users = {
   alex: { password: "alex123", role: "customer" },
 };
 
-// Hardcoded menu items - sample 10 items
 let defaultMenu = [
   {
     id: 1,
@@ -102,12 +99,10 @@ let defaultMenu = [
   },
 ];
 
-// LocalStorage Keys
 const MENU_KEY = "quickfeast_menu";
 const CART_KEY_PREFIX = "quickfeast_cart_";
 const AUTH_KEY = "quickfeast_auth";
 
-// --- AUTH FUNCTIONS ---
 
 function login(username, password) {
   if (!username || !password) return "Username and password required";
@@ -123,7 +118,7 @@ function login(username, password) {
   // Save auth info
   localStorage.setItem(AUTH_KEY, JSON.stringify({ username, role: users[username].role }));
 
-  return null; // success
+  return null; 
 }
 
 function logout() {
@@ -240,7 +235,6 @@ function createMenuCardAdmin(item) {
   return col;
 }
 
-// --- CART FUNCTIONS ---
 
 function getCartKey() {
   const auth = getAuth();
@@ -334,8 +328,6 @@ function clearCart() {
   renderCart();
 }
 
-// --- ADMIN EDIT PRICE FUNCTIONS ---
-
 function editPrice(id) {
   document.getElementById(`editBtn-${id}`).classList.add("d-none");
   document.getElementById(`editPriceContainer-${id}`).classList.remove("d-none");
@@ -365,7 +357,7 @@ function savePrice(id) {
 
   cancelEdit(id);
 
-  // Show success message on admin page
+  
   const successMsg = document.getElementById("successMessage");
   if (successMsg) {
     successMsg.textContent = `Price updated for "${menu[itemIndex].name}"`;
@@ -373,8 +365,6 @@ function savePrice(id) {
     setTimeout(() => successMsg.classList.add("d-none"), 3000);
   }
 }
-
-// --- LOGIN FORM HANDLING ---
 
 if (document.getElementById("loginForm")) {
   document.getElementById("loginForm").addEventListener("submit", (e) => {
