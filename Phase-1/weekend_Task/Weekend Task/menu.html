@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu – QuickFeast</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>.card-img-top{height:180px;object-fit:cover}.badge-free{background-color:#28a745}</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+  <a class="navbar-brand" href="menu.html">QuickFeast</a>
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+    <li class="nav-item"><a class="nav-link" href="cart.html">My Cart</a></li>
+    <li class="nav-item"><a class="nav-link" href="orders_customer.html">My Orders</a></li>
+    <li class="nav-item"><a class="nav-link" href="#" id="logout">Logout</a></li>
+  </ul>
+</nav>
+<div class="container my-4">
+  <div class="row" id="menu"></div>
+</div>
+<script>
+  const defaultItems = [ /* same 10 items as before */ ];
+  let items = JSON.parse(localStorage.getItem("qfProducts")) || defaultItems;
+  localStorage.setItem("qfProducts", JSON.stringify(items));
+  const menu = document.getElementById("menu");
+  items.forEach(i => {
+    if (new Date(i.launchDate) > new Date()) return;
+    const col = document.createElement("div");
+    col.className = "col-md-4 mb-3";
+    col.innerHTML = `
+      <div class="card h-100">
+        <img src="${i.image}" class="card-img-top"><div class="card-body d-flex flex-column">
+          <h5>${i.name}</h5>
+          <p>Category: ${i.category}<br>Price: $${i.price.toFixed(2)}
+            ${i.freeDelivery?'<br><span class="badge bg-success">Free Delivery</span>':''}
+          </p>
+          <button class="btn btn-primary mt-auto" onclick="addToCart(${i.id})">Add to Cart</button>
+        </div>
+      </div>`;
+    menu.appendChild(col);
+  });
+
+  function addToCart(id) {
+    const cart = JSON.parse(localStorage.getItem("qfCart")) || [];
+    if (!cart.find(x => x.id === id)) {
+      const item = items.find(x => x.id === id);
+      cart.push({ ...item, qty: 1 });
+      localStorage.setItem("qfCart", JSON.stringify(cart));
+      alert("Added!");
+    } else alert("Already in cart!");
+  }
+
+  document.getElementById("logout").onclick = () => {
+    localStorage.removeItem("qfUser");
+    window.location.href = "login.html";
+  };
+</script>
+</body>
+</html>

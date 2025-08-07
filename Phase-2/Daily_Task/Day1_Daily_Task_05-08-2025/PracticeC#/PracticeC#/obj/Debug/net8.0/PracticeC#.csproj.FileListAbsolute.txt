@@ -1,0 +1,14 @@
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\bin\Debug\net8.0\PracticeC#.exe
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\bin\Debug\net8.0\PracticeC#.deps.json
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\bin\Debug\net8.0\PracticeC#.runtimeconfig.json
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\bin\Debug\net8.0\PracticeC#.dll
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\bin\Debug\net8.0\PracticeC#.pdb
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.AssemblyInfoInputs.cache
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.AssemblyInfo.cs
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.csproj.CoreCompileInputs.cache
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.dll
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\refint\PracticeC#.dll
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.pdb
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\PracticeC#.genruntimeconfig.cache
+C:\Users\yuvaraj.k\source\repos\PracticeC#\PracticeC#\obj\Debug\net8.0\ref\PracticeC#.dll
