@@ -1,0 +1,14 @@
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\bin\Debug\net8.0\Day4Task.exe
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\bin\Debug\net8.0\Day4Task.deps.json
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\bin\Debug\net8.0\Day4Task.runtimeconfig.json
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\bin\Debug\net8.0\Day4Task.dll
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\bin\Debug\net8.0\Day4Task.pdb
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.AssemblyInfoInputs.cache
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.AssemblyInfo.cs
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.csproj.CoreCompileInputs.cache
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.dll
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\refint\Day4Task.dll
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.pdb
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\Day4Task.genruntimeconfig.cache
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\obj\Debug\net8.0\ref\Day4Task.dll
