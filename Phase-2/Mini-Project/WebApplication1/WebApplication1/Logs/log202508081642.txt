@@ -1,0 +1,45 @@
+2025-08-08 16:42:00.154 +05:30 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentID], [s].[Age], [s].[Department], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [students] AS [s]
+2025-08-08 16:42:00.391 +05:30 [INF] Executing ViewResult, running view Student.
+2025-08-08 16:42:00.472 +05:30 [INF] Executed ViewResult - view Student executed in 82.2441ms.
+2025-08-08 16:42:00.516 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Student (WebApplication1) in 4118.5338ms
+2025-08-08 16:42:00.516 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 16:42:00.516 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 16:42:00.528 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Student (WebApplication1)'
+2025-08-08 16:42:00.531 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 14.3539ms
+2025-08-08 16:42:00.541 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5122ms
+2025-08-08 16:42:00.563 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Student - 200 null text/html; charset=utf-8 4284.535ms
+2025-08-08 16:42:05.933 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/DeleteAction/1 - null null
+2025-08-08 16:42:05.972 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.DeleteAction (WebApplication1)'
+2025-08-08 16:42:05.993 +05:30 [INF] Route matched with {action = "DeleteAction", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DeleteAction(Int32) on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 16:42:06.351 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[StudentID], [s].[Age], [s].[Department], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [students] AS [s]
+WHERE [s].[StudentID] = @__id_0
+2025-08-08 16:42:06.360 +05:30 [WRN] raju is being deleted
+2025-08-08 16:42:06.524 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [students]
+OUTPUT 1
+WHERE [StudentID] = @p0;
+2025-08-08 16:42:06.545 +05:30 [INF] Executing RedirectResult, redirecting to /Home/Student.
+2025-08-08 16:42:06.549 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.DeleteAction (WebApplication1) in 552.5402ms
+2025-08-08 16:42:06.551 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.DeleteAction (WebApplication1)'
+2025-08-08 16:42:06.553 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/DeleteAction/1 - 302 0 null 621.2905ms
+2025-08-08 16:42:06.562 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Student - null null
+2025-08-08 16:42:06.568 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Student (WebApplication1)'
+2025-08-08 16:42:06.569 +05:30 [INF] Route matched with {action = "Student", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Student() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 16:42:06.791 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentID], [s].[Age], [s].[Department], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [students] AS [s]
+2025-08-08 16:42:06.795 +05:30 [INF] Executing ViewResult, running view Student.
+2025-08-08 16:42:06.799 +05:30 [INF] Executed ViewResult - view Student executed in 4.0945ms.
+2025-08-08 16:42:06.801 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Student (WebApplication1) in 226.0974ms
+2025-08-08 16:42:06.804 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Student (WebApplication1)'
+2025-08-08 16:42:06.808 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Student - 200 null text/html; charset=utf-8 245.3318ms
+2025-08-08 16:42:06.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 16:42:06.850 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 16:42:06.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 24.9434ms
+2025-08-08 16:42:07.529 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 686.6313ms

@@ -1,0 +1,89 @@
+2025-08-08 17:20:00.963 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:20:01.304 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:01.322 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:01.341 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 17:20:01.405 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 64.1559ms.
+2025-08-08 17:20:01.430 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 88.8681ms
+2025-08-08 17:20:01.463 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:01.473 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 509.9076ms
+2025-08-08 17:20:01.480 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:01.560 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:01.569 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 109.4171ms
+2025-08-08 17:20:01.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 257.2259ms
+2025-08-08 17:20:19.647 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:20:19.665 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:19.670 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:19.674 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 17:20:19.677 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 3.0402ms.
+2025-08-08 17:20:19.935 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:19.935 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:19.942 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 267.9612ms
+2025-08-08 17:20:19.951 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:19.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 108.0418ms
+2025-08-08 17:20:19.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 306.0235ms
+2025-08-08 17:20:19.978 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.3884ms
+2025-08-08 17:20:21.005 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:20:21.049 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:21.212 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:21.221 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 17:20:21.225 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 3.9049ms.
+2025-08-08 17:20:21.227 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 6.3567ms
+2025-08-08 17:20:21.229 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:21.243 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 237.4262ms
+2025-08-08 17:20:21.291 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:21.535 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:22.118 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 244.5994ms
+2025-08-08 17:20:22.251 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 942.4482ms
+2025-08-08 17:20:22.291 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:20:22.304 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:22.306 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:22.314 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 17:20:22.317 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 4.2415ms.
+2025-08-08 17:20:22.320 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 8.1999ms
+2025-08-08 17:20:22.324 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:22.498 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:22.501 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 209.5812ms
+2025-08-08 17:20:22.558 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:22.562 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 60.7144ms
+2025-08-08 17:20:22.587 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.8024ms
+2025-08-08 17:20:23.467 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:20:23.515 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:23.517 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:23.521 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 17:20:23.524 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 2.9735ms.
+2025-08-08 17:20:23.536 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 14.5756ms
+2025-08-08 17:20:23.578 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:23.580 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 112.8602ms
+2025-08-08 17:20:23.700 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:23.820 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:24.207 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 507.7001ms
+2025-08-08 17:20:24.260 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 548.5886ms
+2025-08-08 17:20:39.885 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 17:20:40.297 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 17:20:40.441 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 17:20:40.447 +05:30 [INF] Hosting environment: Development
+2025-08-08 17:20:40.449 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 17:20:42.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 17:20:43.471 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:20:43.557 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:43.912 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 17:20:44.079 +05:30 [INF] Executed ViewResult - view Index executed in 175.5911ms.
+2025-08-08 17:20:44.110 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 545.6268ms
+2025-08-08 17:20:44.113 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:20:44.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:44.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 23.3913ms
+2025-08-08 17:20:44.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 1749.4245ms
+2025-08-08 17:20:44.356 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:44.944 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 612.9607ms
+2025-08-08 17:20:46.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:20:47.090 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:47.097 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:20:47.121 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 17:20:47.204 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 85.0116ms.
+2025-08-08 17:20:47.225 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 120.6348ms
+2025-08-08 17:20:47.228 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:20:47.236 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 641.6416ms
+2025-08-08 17:20:47.453 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:20:47.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:20:47.670 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 216.8311ms
+2025-08-08 17:20:47.757 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 300.2192ms

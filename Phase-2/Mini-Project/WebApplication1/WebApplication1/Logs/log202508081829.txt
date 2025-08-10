@@ -1,0 +1,68 @@
+2025-08-08 18:29:05.387 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5168/Home/AddProd - application/x-www-form-urlencoded 232
+2025-08-08 18:29:05.519 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 18:29:05.577 +05:30 [INF] Route matched with {action = "AddProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProd(WebApplication1.Models.Product) on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:29:05.641 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [prod] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-08 18:29:05.657 +05:30 [INF] Executing RedirectResult, redirecting to /Home/Product.
+2025-08-08 18:29:05.661 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.AddProd (WebApplication1) in 76.9171ms
+2025-08-08 18:29:05.663 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 18:29:05.666 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5168/Home/AddProd - 302 0 null 279.0897ms
+2025-08-08 18:29:05.670 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Product - null null
+2025-08-08 18:29:05.681 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:29:05.683 +05:30 [INF] Route matched with {action = "Product", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Product() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:29:05.692 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [prod] AS [p]
+2025-08-08 18:29:05.697 +05:30 [INF] Executing ViewResult, running view Product.
+2025-08-08 18:29:05.700 +05:30 [INF] Executed ViewResult - view Product executed in 2.983ms.
+2025-08-08 18:29:05.702 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Product (WebApplication1) in 15.2403ms
+2025-08-08 18:29:05.705 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:29:05.709 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Product - 200 null text/html; charset=utf-8 38.8832ms
+2025-08-08 18:29:05.757 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:29:06.117 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:29:06.121 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 364.5633ms
+2025-08-08 18:29:07.073 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1219.0961ms
+2025-08-08 18:29:09.945 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 18:29:09.996 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 18:29:09.999 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:29:10.004 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 18:29:10.012 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 8.5037ms.
+2025-08-08 18:29:10.016 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 12.0283ms
+2025-08-08 18:29:10.041 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 18:29:10.048 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 102.9569ms
+2025-08-08 18:29:10.070 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:29:10.082 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 23.0288ms
+2025-08-08 18:29:10.162 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:29:10.749 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 670.1088ms
+2025-08-08 18:29:30.511 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5168/Home/AddProd - application/x-www-form-urlencoded 229
+2025-08-08 18:29:30.524 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 18:29:30.526 +05:30 [INF] Route matched with {action = "AddProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProd(WebApplication1.Models.Product) on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:29:30.562 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [prod] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-08 18:29:30.570 +05:30 [INF] Executing RedirectResult, redirecting to /Home/Product.
+2025-08-08 18:29:30.574 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.AddProd (WebApplication1) in 43.9434ms
+2025-08-08 18:29:30.577 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 18:29:30.580 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5168/Home/AddProd - 302 0 null 68.7891ms
+2025-08-08 18:29:30.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Product - null null
+2025-08-08 18:29:30.594 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:29:30.596 +05:30 [INF] Route matched with {action = "Product", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Product() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:29:30.623 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [prod] AS [p]
+2025-08-08 18:29:30.671 +05:30 [INF] Executing ViewResult, running view Product.
+2025-08-08 18:29:30.680 +05:30 [INF] Executed ViewResult - view Product executed in 8.9424ms.
+2025-08-08 18:29:30.682 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Product (WebApplication1) in 62.2241ms
+2025-08-08 18:29:30.685 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:29:30.687 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Product - 200 null text/html; charset=utf-8 101.0789ms
+2025-08-08 18:29:30.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:29:30.908 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:29:30.914 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 133.9071ms
+2025-08-08 18:29:30.931 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 150.4391ms

@@ -1,0 +1,115 @@
+2025-08-08 18:20:10.979 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 18:20:11.976 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 18:20:12.211 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 18:20:12.214 +05:30 [INF] Hosting environment: Development
+2025-08-08 18:20:12.222 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 18:20:14.539 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 18:20:15.130 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 18:20:15.253 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:20:16.037 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 18:20:16.294 +05:30 [INF] Executed ViewResult - view Index executed in 279.2396ms.
+2025-08-08 18:20:16.340 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:20:16.362 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-08 18:20:16.471 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-08-08 18:20:16.484 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-08-08 18:20:16.484 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 1077.4165ms
+2025-08-08 18:20:16.503 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 170.3073ms
+2025-08-08 18:20:16.516 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 18:20:16.516 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-08-08 18:20:16.531 +05:30 [INF] The file /css/site.css was not modified
+2025-08-08 18:20:16.530 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-08-08 18:20:16.535 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - null null
+2025-08-08 18:20:16.544 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 182.1503ms
+2025-08-08 18:20:16.566 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 64.7742ms
+2025-08-08 18:20:16.572 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 100.3542ms
+2025-08-08 18:20:16.611 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-08-08 18:20:16.619 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 2076.3457ms
+2025-08-08 18:20:16.619 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:20:16.660 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-08-08 18:20:16.754 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-08-08 18:20:16.770 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-08 18:20:16.770 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 196.6782ms
+2025-08-08 18:20:16.862 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - 304 null text/javascript 330.1386ms
+2025-08-08 18:20:16.871 +05:30 [INF] The file /js/site.js was not modified
+2025-08-08 18:20:16.873 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 243.3108ms
+2025-08-08 18:20:17.238 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 625.2989ms
+2025-08-08 18:20:21.745 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 18:20:21.829 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 18:20:21.836 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:20:21.858 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.
+2025-08-08 18:20:21.995 +05:30 [INF] Executed ViewResult - view CreateOrEditProd executed in 138.7215ms.
+2025-08-08 18:20:22.325 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:20:22.325 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:20:22.369 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1) in 530.5828ms
+2025-08-08 18:20:22.386 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 18:20:22.386 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 180.4045ms
+2025-08-08 18:20:22.392 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - 200 null text/html; charset=utf-8 647.4778ms
+2025-08-08 18:20:22.686 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 480.7384ms
+2025-08-08 18:20:31.340 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5168/Home/AddProd - application/x-www-form-urlencoded 232
+2025-08-08 18:20:31.370 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 18:20:31.391 +05:30 [INF] Route matched with {action = "AddProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddProd(WebApplication1.Models.Product) on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:20:34.041 +05:30 [ERR] Failed executing DbCommand (115ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [prod] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-08 18:20:34.141 +05:30 [ERR] An exception occurred in the database while saving changes for context type 'WebApplication1.Context.AppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'prod'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:3e058df4-ce80-4435-a922-f87960960eaf
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'prod'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:3e058df4-ce80-4435-a922-f87960960eaf
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)

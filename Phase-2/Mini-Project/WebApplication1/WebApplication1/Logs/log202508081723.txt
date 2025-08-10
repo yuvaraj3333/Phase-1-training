@@ -1,0 +1,99 @@
+2025-08-08 17:23:32.419 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.AddProd (WebApplication1) in 146998.6315ms
+2025-08-08 17:23:32.455 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 17:23:32.465 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'prod'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:9e11ff91-c835-4350-a0fb-86a3ae18cfbd
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at WebApplication1.Controllers.HomeController.AddProd(Product prod)
+   at lambda_method32(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-08-08 17:23:32.575 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5168/Home/AddProd - 500 null text/html; charset=utf-8 147216.9636ms
+2025-08-08 17:23:33.279 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:23:33.311 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:23:33.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.9077ms
+2025-08-08 17:23:33.342 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 31.2772ms
+2025-08-08 17:23:53.679 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 17:23:54.038 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 17:23:54.146 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 17:23:54.151 +05:30 [INF] Hosting environment: Development
+2025-08-08 17:23:54.154 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 17:23:55.209 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 17:23:55.833 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:23:55.978 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:23:56.420 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 17:23:56.755 +05:30 [INF] Executed ViewResult - view Index executed in 366.5839ms.
+2025-08-08 17:23:56.926 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:23:56.939 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-08 17:23:56.946 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 959.5721ms
+2025-08-08 17:23:56.950 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:23:56.953 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 32.5306ms
+2025-08-08 17:23:56.961 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-08-08 17:23:56.964 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - null null
+2025-08-08 17:23:56.964 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-08-08 17:23:56.970 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 1782.465ms
+2025-08-08 17:23:56.970 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 30.9754ms
+2025-08-08 17:23:57.000 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-08-08 17:23:57.000 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-08-08 17:23:57.085 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-08-08 17:23:57.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-08 17:23:57.088 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-08-08 17:23:57.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 136.218ms
+2025-08-08 17:23:57.100 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - 304 null text/javascript 136.2863ms
+2025-08-08 17:23:57.100 +05:30 [INF] The file /css/site.css was not modified
+2025-08-08 17:23:57.120 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 157.5435ms
+2025-08-08 17:23:57.120 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:23:57.129 +05:30 [INF] The file /js/site.js was not modified
+2025-08-08 17:23:57.118 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-08-08 17:23:57.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 154.0929ms
+2025-08-08 17:23:57.139 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 112.055ms
+2025-08-08 17:23:57.798 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 690.8157ms
+2025-08-08 17:23:59.116 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditProd - null null
+2025-08-08 17:23:59.169 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditProd (WebApplication1)'
+2025-08-08 17:23:59.174 +05:30 [INF] Route matched with {action = "CreateOrEditProd", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditProd() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:23:59.192 +05:30 [INF] Executing ViewResult, running view CreateOrEditProd.

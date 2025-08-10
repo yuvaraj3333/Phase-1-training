@@ -1,0 +1,25 @@
+2025-08-08 18:24:00.377 +05:30 [INF] Executed DbCommand (269ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [prod] ([Description], [Name], [Price])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-08 18:24:00.562 +05:30 [INF] Executing RedirectResult, redirecting to /Home/Product.
+2025-08-08 18:24:00.566 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.AddProd (WebApplication1) in 3557.5759ms
+2025-08-08 18:24:00.569 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.AddProd (WebApplication1)'
+2025-08-08 18:24:00.587 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5168/Home/AddProd - 302 0 null 3635.2412ms
+2025-08-08 18:24:00.593 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Product - null null
+2025-08-08 18:24:00.603 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:24:00.608 +05:30 [INF] Route matched with {action = "Product", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Product() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:24:02.159 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [prod] AS [p]
+2025-08-08 18:24:02.198 +05:30 [INF] Executing ViewResult, running view Product.
+2025-08-08 18:24:02.213 +05:30 [INF] Executed ViewResult - view Product executed in 17.0892ms.
+2025-08-08 18:24:02.216 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Product (WebApplication1) in 1604.3909ms
+2025-08-08 18:24:02.220 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:24:02.224 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Product - 200 null text/html; charset=utf-8 1630.745ms
+2025-08-08 18:24:02.406 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:24:02.665 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:24:02.713 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 307.3659ms
+2025-08-08 18:24:03.029 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 621.1381ms

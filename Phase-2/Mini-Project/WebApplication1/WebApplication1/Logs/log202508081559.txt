@@ -1,0 +1,56 @@
+2025-08-08 15:59:36.137 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 15:59:37.421 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 15:59:37.677 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 15:59:37.681 +05:30 [INF] Hosting environment: Development
+2025-08-08 15:59:37.683 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 15:59:39.380 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 15:59:40.495 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 15:59:40.692 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 15:59:41.460 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 15:59:42.157 +05:30 [INF] Executed ViewResult - view Index executed in 818.8674ms.
+2025-08-08 15:59:42.973 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 15:59:42.974 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 15:59:43.413 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 2605.9659ms
+2025-08-08 15:59:43.470 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 15:59:43.472 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 1243.7381ms
+2025-08-08 15:59:44.588 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 5228.8669ms
+2025-08-08 15:59:44.695 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1724.4202ms
+2025-08-08 15:59:50.771 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditemp - null null
+2025-08-08 15:59:50.806 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditemp (WebApplication1)'
+2025-08-08 15:59:50.812 +05:30 [INF] Route matched with {action = "CreateOrEditemp", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateOrEditemp() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 15:59:50.843 +05:30 [INF] Executing ViewResult, running view CreateOrEditemp.
+2025-08-08 15:59:50.918 +05:30 [INF] Executed ViewResult - view CreateOrEditemp executed in 78.867ms.
+2025-08-08 15:59:50.922 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.CreateOrEditemp (WebApplication1) in 102.7753ms
+2025-08-08 15:59:50.925 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.CreateOrEditemp (WebApplication1)'
+2025-08-08 15:59:50.963 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/CreateOrEditemp - 200 null text/html; charset=utf-8 191.7914ms
+2025-08-08 15:59:50.982 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 15:59:50.992 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 15:59:51.155 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.7845ms
+2025-08-08 15:59:51.167 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 184.0144ms
+2025-08-08 15:59:53.273 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Createoreditstudent - null null
+2025-08-08 15:59:53.308 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Createoreditstudent (WebApplication1)'
+2025-08-08 15:59:53.313 +05:30 [INF] Route matched with {action = "Createoreditstudent", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Createoreditstudent() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 15:59:53.325 +05:30 [INF] Executing ViewResult, running view Createoreditstudent.
+2025-08-08 15:59:53.364 +05:30 [INF] Executed ViewResult - view Createoreditstudent executed in 41.6022ms.
+2025-08-08 15:59:53.379 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Createoreditstudent (WebApplication1) in 63.1312ms
+2025-08-08 15:59:53.384 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Createoreditstudent (WebApplication1)'
+2025-08-08 15:59:53.396 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Createoreditstudent - 200 null text/html; charset=utf-8 122.1554ms
+2025-08-08 15:59:53.668 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 15:59:53.677 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 15:59:53.682 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 14.4409ms
+2025-08-08 15:59:54.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 762.5145ms
+2025-08-08 15:59:55.635 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Student - null null
+2025-08-08 15:59:55.650 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Student (WebApplication1)'
+2025-08-08 15:59:55.660 +05:30 [INF] Route matched with {action = "Student", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Student() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 15:59:58.799 +05:30 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[StudentID], [s].[Age], [s].[Department], [s].[FirstName], [s].[Gender], [s].[LastName]
+FROM [students] AS [s]
+2025-08-08 15:59:59.298 +05:30 [INF] Executing ViewResult, running view Student.
+2025-08-08 15:59:59.400 +05:30 [INF] Executed ViewResult - view Student executed in 103.4256ms.
+2025-08-08 15:59:59.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 15:59:59.468 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 15:59:59.641 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 181.0171ms
+2025-08-08 15:59:59.665 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Student (WebApplication1) in 3976.0323ms
+2025-08-08 15:59:59.667 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Student (WebApplication1)'
+2025-08-08 15:59:59.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 209.8612ms
+2025-08-08 15:59:59.691 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Student - 200 null text/html; charset=utf-8 4056.0889ms

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "create Product Page";
+}
+
+@model WebApplication1.Models.Product
+<div class="text-center">
+    <h1 class="display-4"> create or edit Product</h1>
+</div>
+
+<form asp-action="AddProd">
+    @* <lable class="mt-4">StudentId</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="StudentID" /> *@
+
+    <lable class="mt-4">Name</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="Name" />
+
+    <lable class="mt-4">Description</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="Description" />
+
+    <lable class="mt-4">Price</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="Price" />
+
+   
+    <button class="btn" type="submit">Submit</button>
+</form>

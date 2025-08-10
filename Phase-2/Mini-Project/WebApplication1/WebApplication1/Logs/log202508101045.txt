@@ -1,0 +1,38 @@
+2025-08-10 10:45:04.812 +05:30 [INF] User profile is available. Using 'C:\Users\yuvaraj.k\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-10 10:45:05.708 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-10 10:45:06.337 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-10 10:45:06.429 +05:30 [INF] Hosting environment: Development
+2025-08-10 10:45:06.488 +05:30 [INF] Content root path: C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1
+2025-08-10 10:45:08.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-10 10:45:08.904 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-10 10:45:08.994 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-10 10:45:09.411 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-10 10:45:09.668 +05:30 [INF] Executed ViewResult - view Index executed in 276.4891ms.
+2025-08-10 10:45:09.742 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 732.5862ms
+2025-08-10 10:45:09.747 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-10 10:45:09.952 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-08-10 10:45:10.008 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-10 10:45:10.040 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-08-10 10:45:10.055 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 1628.8872ms
+2025-08-10 10:45:10.062 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - null null
+2025-08-10 10:45:10.142 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-10 10:45:10.152 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-08-10 10:45:10.184 +05:30 [INF] Sending file. Request path: '/WebApplication1.styles.css'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css'
+2025-08-10 10:45:10.184 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\wwwroot\js\site.js'
+2025-08-10 10:45:10.184 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-08-10 10:45:10.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 241.1299ms
+2025-08-10 10:45:10.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 200 1133 text/css 39.7402ms
+2025-08-10 10:45:10.225 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 126.1873ms
+2025-08-10 10:45:10.225 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-08-10 10:45:10.225 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-08-10 10:45:10.243 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 187.7565ms
+2025-08-10 10:45:10.250 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-10 10:45:10.250 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 241.8651ms
+2025-08-10 10:45:10.259 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-08-10 10:45:10.262 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-10 10:45:10.262 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 12.2711ms
+2025-08-10 10:45:10.262 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 546.4911ms
+2025-08-10 10:45:10.934 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 675.2936ms
+2025-08-10 10:45:11.563 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/favicon.ico - null null
+2025-08-10 10:45:12.170 +05:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\yuvaraj.k\Downloads\Miniproject\WebApplication1\WebApplication1\wwwroot\favicon.ico'
+2025-08-10 10:45:12.204 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/favicon.ico - 200 5430 image/x-icon 640.9708ms

@@ -1,0 +1,17 @@
+2025-08-08 17:06:50.609 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 17:06:51.261 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 17:06:51.746 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 17:06:51.875 +05:30 [INF] Hosting environment: Development
+2025-08-08 17:06:51.974 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 17:06:54.575 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 17:06:55.257 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:06:55.458 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:06:55.950 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 17:06:56.393 +05:30 [INF] Executed ViewResult - view Index executed in 465.8846ms.
+2025-08-08 17:06:56.405 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 935.6497ms
+2025-08-08 17:06:56.415 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:06:56.433 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 1877.315ms
+2025-08-08 17:06:58.336 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:06:58.345 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 10.5138ms
+2025-08-08 17:06:58.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:06:58.470 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 116.4825ms

@@ -1,0 +1,50 @@
+2025-08-08 16:41:33.003 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 16:41:33.577 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 16:41:33.993 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 16:41:35.934 +05:30 [INF] Hosting environment: Development
+2025-08-08 16:41:36.105 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 16:41:36.132 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 16:41:37.013 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 16:41:37.138 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 16:41:38.078 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 16:41:38.451 +05:30 [INF] Executed ViewResult - view Index executed in 413.3187ms.
+2025-08-08 16:41:38.599 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 1455.7437ms
+2025-08-08 16:41:38.599 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 16:41:38.827 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-08-08 16:41:38.834 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 16:41:38.827 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-08-08 16:41:38.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - null null
+2025-08-08 16:41:38.863 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 283.2861ms
+2025-08-08 16:41:38.872 +05:30 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2025-08-08 16:41:38.877 +05:30 [INF] The file /WebApplication1.styles.css was not modified
+2025-08-08 16:41:38.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/WebApplication1.styles.css?v=Ejph5OspmnzpK2cukdzRSThxw067hcPq5OuD1ldyKsk - 304 null text/css 26.0835ms
+2025-08-08 16:41:38.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 53.0922ms
+2025-08-08 16:41:38.880 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - null null
+2025-08-08 16:41:38.897 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 2809.1399ms
+2025-08-08 16:41:39.360 +05:30 [INF] The file /css/site.css was not modified
+2025-08-08 16:41:39.362 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-08-08 16:41:39.366 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-08-08 16:41:39.371 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 16:41:39.375 +05:30 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2025-08-08 16:41:39.375 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 548.1993ms
+2025-08-08 16:41:39.384 +05:30 [INF] The file /js/site.js was not modified
+2025-08-08 16:41:39.384 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 487.6988ms
+2025-08-08 16:41:39.397 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 36.6682ms
+2025-08-08 16:41:39.366 +05:30 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2025-08-08 16:41:39.406 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/lib/jquery/dist/jquery.min.js - 304 null text/javascript 525.4072ms
+2025-08-08 16:41:39.751 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 777.9526ms
+2025-08-08 16:41:54.133 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Createoreditstudent - null null
+2025-08-08 16:41:54.161 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Createoreditstudent (WebApplication1)'
+2025-08-08 16:41:54.170 +05:30 [INF] Route matched with {action = "Createoreditstudent", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Createoreditstudent() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 16:41:54.190 +05:30 [INF] Executing ViewResult, running view Createoreditstudent.
+2025-08-08 16:41:54.253 +05:30 [INF] Executed ViewResult - view Createoreditstudent executed in 63.9383ms.
+2025-08-08 16:41:54.258 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Createoreditstudent (WebApplication1) in 84.2474ms
+2025-08-08 16:41:54.263 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Createoreditstudent (WebApplication1)'
+2025-08-08 16:41:54.266 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Createoreditstudent - 200 null text/html; charset=utf-8 132.909ms
+2025-08-08 16:41:54.292 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 16:41:54.307 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 16:41:54.434 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 134.1391ms
+2025-08-08 16:41:54.505 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 212.9046ms
+2025-08-08 16:41:56.278 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Student - null null
+2025-08-08 16:41:56.386 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Student (WebApplication1)'
+2025-08-08 16:41:56.393 +05:30 [INF] Route matched with {action = "Student", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Student() on controller WebApplication1.Controllers.HomeController (WebApplication1).

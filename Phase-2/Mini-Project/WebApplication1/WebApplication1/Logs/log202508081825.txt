@@ -1,0 +1,18 @@
+2025-08-08 18:25:46.893 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Product - null null
+2025-08-08 18:25:46.985 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:25:46.998 +05:30 [INF] Route matched with {action = "Product", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Product() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:25:47.224 +05:30 [INF] Executed DbCommand (131ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [prod] AS [p]
+2025-08-08 18:25:47.240 +05:30 [INF] Executing ViewResult, running view Product.
+2025-08-08 18:25:47.266 +05:30 [INF] Executed ViewResult - view Product executed in 30.48ms.
+2025-08-08 18:25:47.268 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Product (WebApplication1) in 266.4217ms
+2025-08-08 18:25:47.271 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:25:47.274 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Product - 200 null text/html; charset=utf-8 381.4814ms
+2025-08-08 18:25:47.733 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:25:48.692 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:25:49.910 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 2176.5554ms
+2025-08-08 18:25:49.970 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2044.3598ms
+2025-08-08 18:25:50.061 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/favicon.ico - null null
+2025-08-08 18:25:50.085 +05:30 [INF] The file /favicon.ico was not modified
+2025-08-08 18:25:50.102 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/favicon.ico - 304 null image/x-icon 41.1158ms

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "create student Page";
+}
+
+@model WebApplication1.Models.student
+<div class="text-center">
+    <h1 class="display-4"> create or edit student</h1>
+   </div>
+
+<form asp-action="AddStudent"> 
+    @* <lable class="mt-4">StudentId</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="StudentID" /> *@
+
+    <lable class="mt-4">FirstName</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="FirstName" />
+
+    <lable class="mt-4">LastName</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="LastName" />
+
+    <lable class="mt-4">Age</lable>
+    <input class="form-control" type="number" placeholder="" asp-for="Age" />
+
+    <lable class="mt-4">Gender</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="Gender" />
+
+    <lable class="mt-4">Department</lable>
+    <input class="form-control" type="text" placeholder="" asp-for="Department" />
+
+    <button class="btn" type="submit">Submit</button>
+</form>

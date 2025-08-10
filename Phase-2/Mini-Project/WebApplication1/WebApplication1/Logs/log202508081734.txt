@@ -1,0 +1,17 @@
+2025-08-08 17:34:04.530 +05:30 [INF] User profile is available. Using 'C:\Users\vijay.m\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-08 17:34:05.456 +05:30 [INF] Now listening on: http://localhost:5168
+2025-08-08 17:34:05.824 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-08 17:34:06.783 +05:30 [INF] Hosting environment: Development
+2025-08-08 17:34:06.786 +05:30 [INF] Content root path: C:\Users\vijay.m\source\repos\WebApplication1\WebApplication1
+2025-08-08 17:34:08.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/ - null null
+2025-08-08 17:34:09.123 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:34:09.226 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 17:34:10.006 +05:30 [INF] Executing ViewResult, running view Index.
+2025-08-08 17:34:10.581 +05:30 [INF] Executed ViewResult - view Index executed in 581.125ms.
+2025-08-08 17:34:10.646 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 1413.3589ms
+2025-08-08 17:34:10.648 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-08-08 17:34:10.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/ - 200 null text/html; charset=utf-8 2534.1666ms
+2025-08-08 17:34:10.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 17:34:10.909 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 17:34:10.914 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 12.8899ms
+2025-08-08 17:34:10.968 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.4392ms

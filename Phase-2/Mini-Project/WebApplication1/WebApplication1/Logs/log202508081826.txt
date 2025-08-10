@@ -1,0 +1,15 @@
+2025-08-08 18:26:10.854 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/Home/Product - null null
+2025-08-08 18:26:10.879 +05:30 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:26:10.886 +05:30 [INF] Route matched with {action = "Product", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Product() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-08-08 18:26:10.899 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+FROM [prod] AS [p]
+2025-08-08 18:26:10.925 +05:30 [INF] Executing ViewResult, running view Product.
+2025-08-08 18:26:10.996 +05:30 [INF] Executed ViewResult - view Product executed in 73.1279ms.
+2025-08-08 18:26:11.028 +05:30 [INF] Executed action WebApplication1.Controllers.HomeController.Product (WebApplication1) in 134.6976ms
+2025-08-08 18:26:11.030 +05:30 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Product (WebApplication1)'
+2025-08-08 18:26:11.050 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/Home/Product - 200 null text/html; charset=utf-8 195.2272ms
+2025-08-08 18:26:11.370 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_vs/browserLink - null null
+2025-08-08 18:26:11.398 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.5811ms
+2025-08-08 18:26:11.586 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-08 18:26:12.448 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5168/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 862.5455ms

@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Studnet Page";
+}
+
+@model List<student>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="display-4 m-0 mx-auto">Welcome to student</h1>
+    <a class="btn btn-primary" asp-action="CreateOrEditStudent">Add Student</a>
+</div>
+<p>Total age:@ViewBag.totalAge</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>StudentId</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Department</th>
+            <th>Action</th>
+            <th>update</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach(var stud in Model)
+            {
+                <tr>
+                    <td>@stud.StudentID</td>
+                    <td>@stud.FirstName</td>
+                  <td>@stud.LastName</td>
+                    <td>@stud.Age</td>
+                    <td>@stud.Gender</td>
+                    <td>@stud.Department</td>
+                    <td><a asp-action="DeleteAction" asp-route-id="@stud.StudentID">delete</a></td>
+                    <td>
+                    <td>
+                        <form asp-action="UpdateAction" method="post">
+                            <input type="hidden" name="id" value="@stud.StudentID" />
+
+                            <select name="field" class="form-select form-select-sm d-inline w-auto">
+                                <option value="FirstName">Name</option>
+                                <option value="LastName">LastName</option>
+                                <option value="Age">Age</option>
+                                <option value="Gender">Gender</option>
+                                <option value="Department">Department</option>
+                            </select>
+
+                            <input type="text" name="value" placeholder="New value" class="form-control d-inline w-auto" />
+
+                            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                        </form>
+                    </td>
+                    </td>
+
+                </tr>
+            }
+        }
+    </tbody>
+
+</table>
