@@ -1,0 +1,14 @@
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\bin\Debug\net8.0\WeekendTask.exe
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\bin\Debug\net8.0\WeekendTask.deps.json
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\bin\Debug\net8.0\WeekendTask.runtimeconfig.json
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\bin\Debug\net8.0\WeekendTask.dll
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\bin\Debug\net8.0\WeekendTask.pdb
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.AssemblyInfoInputs.cache
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.AssemblyInfo.cs
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.csproj.CoreCompileInputs.cache
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.dll
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\refint\WeekendTask.dll
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.pdb
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\WeekendTask.genruntimeconfig.cache
+C:\Users\yuvaraj.k\source\repos\Day4Task\Day4Task\WeekendTask\WeekendTask\obj\Debug\net8.0\ref\WeekendTask.dll
