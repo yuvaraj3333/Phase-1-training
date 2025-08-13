@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\views\\movie\\audiencelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\views\\movie\\audiencelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\views\\movie\\bookticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\views\\movie\\bookticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\migrations\\20250813040206_yuva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\migrations\\20250813040206_yuva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\views\\home\\booktickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\views\\home\\booktickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\models\\audience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\models\\audience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|c:\\users\\yuvaraj.k\\source\\repos\\miniproject\\miniproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{930F8BA2-709A-4FDD-A6B1-E30841F06DE0}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Migrations\\20250812062548_Yuvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MiniProject\\Migrations\\20250812062548_Yuvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MiniProject\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:17:10.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookTicket.cshtml",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Movie\\BookTicket.cshtml",
+              "RelativeDocumentMoniker": "MiniProject\\Views\\Movie\\BookTicket.cshtml",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Movie\\BookTicket.cshtml",
+              "RelativeToolTip": "MiniProject\\Views\\Movie\\BookTicket.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T05:09:37.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Program.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Program.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Program.cs",
+              "RelativeToolTip": "MiniProject\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T05:14:03.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MiniProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T04:30:53.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "MiniProject\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:49:07.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AudienceList.cshtml",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Movie\\AudienceList.cshtml",
+              "RelativeDocumentMoniker": "MiniProject\\Views\\Movie\\AudienceList.cshtml",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Movie\\AudienceList.cshtml",
+              "RelativeToolTip": "MiniProject\\Views\\Movie\\AudienceList.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAUwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T05:11:22.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250813040206_Yuva.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Migrations\\20250813040206_Yuva.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Migrations\\20250813040206_Yuva.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Migrations\\20250813040206_Yuva.cs",
+              "RelativeToolTip": "MiniProject\\Migrations\\20250813040206_Yuva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T04:02:07.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookTickets.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Home\\BookTickets.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Views\\Home\\BookTickets.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Home\\BookTickets.cs",
+              "RelativeToolTip": "MiniProject\\Views\\Home\\BookTickets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:31:59.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MiniProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\appsettings.json",
+              "RelativeToolTip": "MiniProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-12T05:22:50.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Audience.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Models\\Audience.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Models\\Audience.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Models\\Audience.cs",
+              "RelativeToolTip": "MiniProject\\Models\\Audience.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:47:57.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MiniProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T04:33:27.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MiniProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MiniProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T09:31:42.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250812062548_Yuvi.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Migrations\\20250812062548_Yuvi.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Migrations\\20250812062548_Yuvi.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\source\\repos\\MiniProject\\MiniProject\\Migrations\\20250812062548_Yuvi.cs",
+              "RelativeToolTip": "MiniProject\\Migrations\\20250812062548_Yuvi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:25:48.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
