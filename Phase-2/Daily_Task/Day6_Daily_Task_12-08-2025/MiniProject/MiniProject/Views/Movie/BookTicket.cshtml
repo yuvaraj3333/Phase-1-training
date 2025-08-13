@@ -1,0 +1,105 @@
+﻿@model MovieBookingApp.Models.Audience
+
+<style>
+    body {
+        background: radial-gradient(circle at top, #0d0d0d, #1a1a2e, #000);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 40px;
+        color: #f5f5f5;
+        margin: 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 25px;
+        animation: fadeInDown 1s ease;
+        text-shadow: 0 0 10px #ff5e62, 0 0 20px #ff9966;
+    }
+
+    form {
+        background: rgba(255, 255, 255, 0.08);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.4);
+        max-width: 450px;
+        margin: auto;
+        backdrop-filter: blur(12px);
+        animation: slideUp 1s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .form-group label {
+        font-weight: bold;
+        color: #f0f0f0;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        border: none;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+        .form-control:focus {
+            transform: scale(1.03);
+            box-shadow: 0px 0px 10px rgba(255, 153, 102, 0.7);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 12px;
+        background: linear-gradient(135deg, #ff5e62, #ff9966);
+        border: none;
+        border-radius: 8px;
+        transition: background 0.3s, transform 0.2s, box-shadow 0.3s;
+        color: #fff;
+        box-shadow: 0 0 15px rgba(255, 94, 98, 0.4);
+    }
+
+        button:hover {
+            background: linear-gradient(135deg, #ff9966, #ff5e62);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 0 20px rgba(255, 153, 102, 0.8);
+        }
+</style>
+
+<h2>🎬 Book Ticket for <span style="color: #ffcc80;">Coolie</span></h2>
+
+<form asp-action="BookTicket" method="post">
+    <div class="form-group mb-3">
+        <label>Name:</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label>Gender:</label>
+        <select asp-for="Gender" class="form-control">
+            <option value="">-- Select Gender --</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label>Age (Optional, will be calculated from DOB if empty):</label>
+        <input asp-for="Age" type="number" class="form-control" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label>Date of Birth:</label>
+        <input asp-for="DOB" type="date" class="form-control" />
+        <span asp-validation-for="DOB" class="text-danger"></span>
+    </div>
+    <button type="submit">Book Ticket</button>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
