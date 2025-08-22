@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Migrations\\20250822113444_yuvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Miniproject\\Migrations\\20250822113444_yuvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\models\\bankaccountcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\models\\bankaccountcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\models\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\models\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\models\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\miniproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\miniproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|c:\\users\\yuvaraj.k\\downloads\\miniproject (1)\\miniproject\\miniproject\\migrations\\20250822063135_miniproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B916D09-8B9D-4340-86BD-50AEF17DB654}|Miniproject\\Miniproject.csproj|solutionrelative:miniproject\\migrations\\20250822063135_miniproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250822113444_yuvi.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Migrations\\20250822113444_yuvi.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Migrations\\20250822113444_yuvi.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Migrations\\20250822113444_yuvi.cs",
+              "RelativeToolTip": "Miniproject\\Migrations\\20250822113444_yuvi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T11:34:44.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Miniproject\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:43:04.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankAccountCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\BankAccountCreateDto.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Models\\BankAccountCreateDto.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\BankAccountCreateDto.cs",
+              "RelativeToolTip": "Miniproject\\Models\\BankAccountCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:48:58.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\CustomerCreateDto.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Models\\CustomerCreateDto.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\CustomerCreateDto.cs",
+              "RelativeToolTip": "Miniproject\\Models\\CustomerCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:44:39.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250822063135_miniproject.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Migrations\\20250822063135_miniproject.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Migrations\\20250822063135_miniproject.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Migrations\\20250822063135_miniproject.cs",
+              "RelativeToolTip": "Miniproject\\Migrations\\20250822063135_miniproject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:31:36.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Controllers\\BankAccountController.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Controllers\\BankAccountController.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Controllers\\BankAccountController.cs",
+              "RelativeToolTip": "Miniproject\\Controllers\\BankAccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:10:40.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "Miniproject\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T08:35:41.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Models\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "Miniproject\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T08:37:18.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\appsettings.json",
+              "RelativeDocumentMoniker": "Miniproject\\appsettings.json",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\appsettings.json",
+              "RelativeToolTip": "Miniproject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T09:33:40.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Program.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Program.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Program.cs",
+              "RelativeToolTip": "Miniproject\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:20:36.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Miniproject\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:15:47.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Miniproject\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA9wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:11:00.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\BankAccount.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Models\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\BankAccount.cs",
+              "RelativeToolTip": "Miniproject\\Models\\BankAccount.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:05:49.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Miniproject\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Models\\Customer.cs",
+              "RelativeToolTip": "Miniproject\\Models\\Customer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:01:29.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Miniproject.csproj",
+              "DocumentMoniker": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Miniproject.csproj",
+              "RelativeDocumentMoniker": "Miniproject\\Miniproject.csproj",
+              "ToolTip": "C:\\Users\\yuvaraj.k\\Downloads\\Miniproject (1)\\Miniproject\\Miniproject\\Miniproject.csproj",
+              "RelativeToolTip": "Miniproject\\Miniproject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-22T05:00:44.795Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
