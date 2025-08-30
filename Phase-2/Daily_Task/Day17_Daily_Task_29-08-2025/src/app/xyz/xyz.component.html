@@ -1,0 +1,97 @@
+<!-- <div>
+  <input type="text" id="myInput" [(ngModel)]="add_title" placeholder="Title" />
+  <input
+    type="text"
+    id="myInput"
+    [(ngModel)]="add_description"
+    placeholder="Description"
+  />
+  <input
+    type="number"
+    id="myInput"
+    [(ngModel)]="add_rating"
+    placeholder="Rating"
+  />
+  <input
+    type="number"
+    id="myInput"
+    [(ngModel)]="add_price"
+    placeholder="Price"
+  />
+  <button (click)="addMore()">Add Book</button>
+</div> -->
+
+<!-- <table border="1">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Rating</th>
+      <th>Price</th>
+    </tr>
+    <tr *ngFor="let book of bookList">
+      <td>{{ book.title }}</td>
+      <td>{{ book.description }}</td>
+      <td>{{ book.rating }}</td>
+      <td>{{ book.price }}</td>
+    </tr>
+  </thead>
+</table> -->
+
+<!-- <div style="margin-bottom: 20px">
+  <input
+    type="number"
+    [(ngModel)]="deleteId"
+    placeholder="Enter Customer ID to delete"
+  />
+  <button (click)="deleteCustomer()">Delete Customer</button>
+</div> -->
+
+<table
+  border="1"
+  cellpadding="5"
+  cellspacing="0"
+  style="width: 100%; border-collapse: collapse"
+>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Customer Name</th>
+      <th>Username</th>
+      <th>Age</th>
+      <th>Accounts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let bank of bankList">
+      <td>{{ bank.id }}</td>
+      <td>{{ bank.name }}</td>
+      <td>{{ bank.username }}</td>
+      <td>{{ bank.age }}</td>
+      <td>
+        <!-- Nested Table -->
+        <table
+          border="1"
+          cellpadding="5"
+          cellspacing="0"
+          style="width: 100%; border-collapse: collapse; margin-top: 5px"
+        >
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Account Number</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let acc of bank.accounts">
+              <td>{{ acc.id }}</td>
+              <td>{{ acc.accountNumber }}</td>
+              <td>{{ acc.amount }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>

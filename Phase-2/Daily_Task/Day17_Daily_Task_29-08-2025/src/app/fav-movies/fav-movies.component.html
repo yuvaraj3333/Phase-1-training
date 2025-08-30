@@ -1,0 +1,74 @@
+<h2>Favorite Movies</h2>
+
+<!-- <div *ngIf="isLoading">Loading movies...</div> -->
+<!-- <div *ngIf="error">{{ error }}</div> -->
+
+<table border="1" cellpadding="8">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Release Year</th>
+      <th>Streaming Platform</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movie of movies">
+      <td>{{ movie.id }}</td>
+      <td>{{ movie.title }}</td>
+      <td>{{ movie.description }}</td>
+      <td>{{ movie.releaseYear }}</td>
+      <td>{{ movie.streamPlatforms }}</td>
+      <td>
+        <button (click)="deleteMovie(movie.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3>Update Movie</h3>
+<form (ngSubmit)="updateMovie()" #movieForm="ngForm">
+  <label>ID:</label>
+  <input type="number" [(ngModel)]="updateMovieData.id" name="id" required />
+  <br />
+
+  <label>Title:</label>
+  <input
+    type="text"
+    [(ngModel)]="updateMovieData.title"
+    name="title"
+    required
+  />
+  <br />
+
+  <label>Description:</label>
+  <input
+    type="text"
+    [(ngModel)]="updateMovieData.description"
+    name="description"
+  />
+  <br />
+
+  <label>Release Year:</label>
+  <input
+    type="number"
+    [(ngModel)]="updateMovieData.releaseYear"
+    name="releaseYear"
+    required
+  />
+  <br />
+
+  <label>Streaming Platforms:</label>
+  <input
+    type="text"
+    [(ngModel)]="updateMovieData.streamPlatforms"
+    name="streamPlatforms"
+  />
+  <br />
+
+  <button type="submit" [disabled]="movieForm.invalid">Update Movie</button>
+</form>
